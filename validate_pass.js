@@ -3,7 +3,6 @@ const model = require("../models/users")
 const bcr = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const response = require("../helpers/response")
-const Logger = require("../helpers/logger")
 
 const token = async (email) => {
     try {
